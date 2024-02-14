@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+}
+header{
+    background-color:beige
+}
+#bordure{
+    background-color: red;
+    height: 5px;
+}
+#header_contents{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.Sujet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu{
+    background-color: gray;
+}
+
+h1{
+    padding: 10px;
+    color: rgb(243, 4, 4);
+
+}
+button{
+    background-color:yellow
+}
+button:hover{
+    cursor: pointer;
+}
+nav{
+    background-color: red;
+}
+
+#théme{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   list-style-type: none; 
+   color: white;
+   padding: 10px;
+    font-weight: bold;
+}
+section{
+    max-width: 1400px;
+    margin: auto;
+}
+
+#Thémes_contents{
+   display: flex;
+   padding: 10px;
+}
+#config:hover{
+  background-color: yellow;
+  cursor: pointer;
+}
+
+.images_config{
+    width: 150px;
+}
+#config{
+    display: flex;
+   border: 5px solid rgb(254, 247, 247);
+}
+p{
+    padding-left: 10px;
+}
+#Thémes_configuration{
+    background-image: url(./assets/images/fond3.png);
+    background-size: cover;
+    background-position: center;
+}
